@@ -7,7 +7,11 @@ Add another file that has the parameter values and calls the do_work function:
 
 
 `source('script_with_functions.R')`
+
 `connection <- odbcDriverConnect(connectionstring = '...')`
+
 `year <- 2016`
+
 `do_work(connection, year)`
+
 `odbcClose(connection)`
